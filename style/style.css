@@ -1,0 +1,152 @@
+body { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  font-size: 18px;}
+:root { --main-color: #FFB628; }
+.head { width: 100%; display: flex; justify-content: center; border-bottom: 1px solid var(--main-color); background-color: white; z-index: 50; }
+.head__container, .head__container_two { display: flex; width: 95%; justify-content: space-between; align-items: center;
+}
+.logo-block { display: flex; align-items: center; font-weight: 900; }
+.logo { width: 70px; margin: 15px 0px; 
+}
+.nav-item { display: flex;
+}
+.nav-item.open { display: flex; }
+/* -------- */
+.tovar-href { width: 150px; display: flex; justify-content: center; }
+.href-item { font-weight: 900; transition: all 0.5s ease;  margin: 0px 10px; display: flex; align-items: center;}
+.href-item:hover { color: var(--main-color);}
+.fqw { width: 90px; }
+.back { border: 1px solid var(--main-color);background-color: var(--main-color); padding: 5px 15px; border-radius: 10px;}
+.back:hover { border: 1px solid var(--main-color); color: var(--main-color); background-color: white }
+
+.menu { display: none; margin-left: 15px;}
+.burger { width: 30px; }
+
+.burger-open { display: block; }
+.burger-open.open { display: none; }
+.burger-close { display: none;}
+.burger-close.open { display: block; }
+/*  */
+.main-blck { display: flex; align-items: center; justify-content: space-between; height: 100vh; }
+.mainblck-txt { font-size: 36px; width: 50vw; line-height: 60px;
+    background-color: var(--main-color); padding: 40px 30px; border-radius: 0px 10px 10px 0px;
+}
+.down { display: none; }
+.mainblck-img { width: 45vw; border-radius: 10px 0px 0px 10px;}
+/*  */
+.services {
+}
+.services-cnt { display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+.srv-blck { background-color: var(--main-color); width: 300px; display: flex; flex-direction: column; align-items: center; border-radius: 10px; cursor: pointer; transition: all 0.3s ease; margin: 10px;
+}
+.srv-blck:hover { transform: scale(1.05) }
+.srv-img { width: 300px; border-radius: 9px 9px 0px 0px;
+}
+.srv-txt-head { font-size: 30px; margin: 20px 0px;
+}
+.srv-txt-info { padding: 0px 10px 10px 10px;
+}
+.btn-form { background-color: white; width: 100%; border: 2px solid var(--main-color); text-align: center; padding: 10px 0px; border-radius: 0px 0px 10px 10px;}
+/*  */
+.about, .feedback, .services { padding: 40px 100px; }
+.headsect { font-size: 34px; font-weight: 700; background-color: var(--main-color); padding: 10px 20px; border-radius: 10px; margin-bottom: 30px;}
+.about-txt { font-size: 20px; }
+/*  */
+.laborers { width: 100%; display: flex; justify-content: center;
+}
+.laborers-container { padding: 40px 100px;
+}
+.laborers-blocks { display: flex; flex-wrap: wrap; justify-content: center;
+}
+.block { border-radius: 10px; border: 1px solid var(--main-color);
+    display: flex; flex-direction: column; align-items: center; width: 270px; margin: 20px;
+    padding: 0px 15px 30px 15px; transition: all 0.3s ease;
+}
+.block:hover {  transform: scale(1.05)}
+.laborers-img { width: 268px; border-radius: 8px 8px 0px 0px;
+}
+.laborers-txt { margin-top: 30px; font-size: 30px; font-weight: 600;
+}
+.laborers-txt-info { font-size: 14px;}
+/*  */
+.gal-h { margin: 40px 100px; }
+.gal-blockimg { display: flex; flex-wrap: wrap;}
+.squar {width: 25vw; height: 25vw; }
+/*  */
+.feedback-blockss {}
+.fdb-block { border: 1px solid var(--main-color); padding: 20px; border-radius: 10px; margin: 15px 0px;
+}
+.fdb-fio { font-weight: 600;
+}
+/*  */
+.footer { background-color: var(--main-color); display: flex; justify-content: space-between; padding: 20px 40px;
+}
+.ftr-txtblck { display: flex; flex-direction: column; justify-content: center;
+}
+.ftrrec-logo { display: flex; align-items: center; margin-bottom: 30px;
+}
+.ftr-logo { width: 60px; margin-right: 20px;
+}
+.ftr-logoname { font-size: 40px; 
+}
+.ftrrec-txt { font-size: 30px; margin: 7px 0px;
+}
+.ftr-mapblck {
+}
+/* ----- */
+.background_form { position: fixed; background-color: gray; 
+    width: 100%; height: 100%; top: 0; opacity: 50%; display: none; z-index: 51;
+}
+.forms-blocks { width: 100%; height: 100%; position: fixed; top: 0; display: none; align-items: center; justify-content: center; 
+    z-index: 52;}
+.block_form { background-color: white; padding: 30px 30px; border-radius: 15px; display: none; margin: 0px 20px;
+}
+.cnt-close { width: 100%; display: flex; justify-content: flex-end;
+}
+.btn-close { width: 20px; cursor: pointer; margin-right: 20px;
+}
+.title_form { text-align: center; font-size: 25px; margin: 30px 0px;
+}
+#form { display: flex; flex-direction: column; align-items: center;}
+.inp-block { display: flex; margin: 20px 0px; align-items: center;
+}
+.img-inp { width: 20px; height: 20px; margin-right: 15px;
+}
+.input_form { border: 1px solid gray; border-radius: 15px; padding: 15px 15px; margin: 15px 0px; width: 100%;
+}
+.btn_form, .btn_form_ok { background-color: var(--main-color); color: white; width: 100%; padding: 10px 0px; 
+    margin-top: 30px; border-radius: 7px; text-align: center; cursor: pointer;
+}
+
+.block_submitted-form {
+    background-color: white; padding: 20px; width: 300px; border-radius: 15px; display: none;
+}
+.thanks { text-align: center;
+}
+
+@media screen and (max-width: 1160px) {
+    .services-cnt { justify-content: center; }
+}
+
+@media screen and (max-width: 936px) {
+    .main-blck { flex-direction: column; justify-content: center;}
+    .mainblck-txt { width: 90vw; border-radius: 10px;}
+    .mainblck-img { display: none; }
+    .ftr-mapblck { display: none;}
+}
+
+@media screen and (max-width: 740px) {
+    .gallery { display: none;}
+    .nav-item { display: none; flex-direction: column; align-items: center;}
+    .menu { display: flex; }
+    .burger-open { display: block; }
+    .head__container { flex-direction: column; }
+    .href-item { margin: 15px 0px; }
+    .fqw { width: 55px; }
+    .back { border: none; background-color: white; color: black; padding: 0px; border-radius: 0px; }
+    .main-blck { background-color: var(--main-color);}
+    .mainblck-txt { font-size: 30px; width: 100vw; line-height: normal; }
+    .about, .laborers-container, .feedback, .services  { padding: 40px 10px; }
+    .down {display: block; font-size: 100px; text-align: center; margin-top: 50px;}
+    .footer { flex-direction: column; }
+    .ftrrec-txt { font-size: 16px; margin: 5px 0px; }
+}
